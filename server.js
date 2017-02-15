@@ -25,6 +25,10 @@ app.get('/ui/myImage.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'myImage.jpg'));
 });
 
+app.get('/ui/Kaabil.mp4', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Kaabil.mp4'));
+});
+
 app.get('/ui/back.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'back.jpg'));
 });
